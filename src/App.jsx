@@ -69,7 +69,16 @@ const App = () => {
     <Container>
       <Row>
         <Col>
-          <h1 className="my-4 ">Lista de Tareas</h1>
+          <h1
+            className="my-4 "
+            style={{
+              color: "rgb(236, 190, 62)",
+              textTransform: "uppercase",
+              fonWeight: "bold",
+            }}
+          >
+            Lista de Tareas
+          </h1>
           <TodoForm
             addTodo={addTodo}
             updateTodo={updateTodo}
