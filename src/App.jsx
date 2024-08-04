@@ -75,6 +75,7 @@ const App = () => {
               color: "rgb(236, 190, 62)",
               textTransform: "uppercase",
               fonWeight: "bold",
+              textAlign: "center",
             }}
           >
             Lista de Tareas
